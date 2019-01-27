@@ -17,6 +17,9 @@ HISTFILE=~/.zsh_history
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(virtualenv dir vcs)
 
+POWERLEVEL9K_VIRTUALENV_BACKGROUND=109 #102, 6
+POWERLEVEL9K_VIRTUALENV_FOREGROUND='black'
+
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/opt/powerlevel9k/powerlevel9k.zsh-theme
 
